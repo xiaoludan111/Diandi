@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bottomColor"
+    android:orientation="vertical"
+    >
+
+    <com.example.diandi.base.CustomTitleBar
+        android:id="@+id/titlebar"
+        android:background="@color/whiteColor"
+        app:right_text="更多"
+        app:titlebar_type="11"
+        app:left_icon="@drawable/back"
+        app:title="设置"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="14sp"
+          android:layout_marginLeft="18dp"
+          android:layout_marginTop="18dp"
+          android:textColor="@color/greyColor"
+          android:text="账号"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="20dp"
+        >
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/password"/>
+         <TextView
+             android:layout_marginLeft="30dp"
+             android:layout_width="wrap_content"
+             android:textColor="@color/whiteColor"
+             android:layout_height="wrap_content"
+             android:textSize="14sp"
+             android:text="设置修改密码"/>
+          <TextView
+              android:layout_alignParentRight="true"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/greyColor"
+              android:layout_marginRight="20dp"
+              android:text=">"/>
+
+    </RelativeLayout>
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="18dp"
+         android:layout_marginTop="32dp"
+         android:textSize="14sp"
+         android:textColor="@color/greyColor"
+         android:text="隐私设置"/>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="22dp"
+                android:textColor="@color/whiteColor"
+                android:text="关注主播开闭提醒"/>
+             <Switch
+                 android:layout_alignParentRight="true"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 />
+
+       </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteColor"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="24dp"
+            android:text="WIFI下开启直播"/>
+        <Switch
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteColor"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="24dp"
+            android:text="WIFI下自动播放视频"/>
+        <Switch
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </RelativeLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="28dp"
+         android:layout_marginLeft="18dp"
+         android:orientation="horizontal">
+         <ImageView
+             android:layout_width="20dp"
+             android:layout_height="20dp"
+             android:src="@drawable/edit"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="退出登录"
+             android:layout_marginLeft="20dp"
+             android:textColor="@color/whiteColor"
+             android:textSize="12sp"/>
+
+     </LinearLayout>
+</LinearLayout>

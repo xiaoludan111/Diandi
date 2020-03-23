@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bottomColor"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/img_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/setting"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+     <Button
+         android:id="@+id/btn_edit_profile"
+         android:layout_width="138dp"
+         android:layout_height="70dp"
+         android:text="编辑资料"/>
+    <Button
+        android:id="@+id/btn_invite_friend"
+        android:layout_width="174dp"
+        android:layout_height="70dp"
+        android:text="邀请好友"/>
+    <Button
+        android:id="@+id/btn_recommend_person"
+        android:layout_width="128dp"
+        android:layout_height="70dp"
+        android:text="推荐人"/>
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <TextView
+           android:id="@+id/tv_name"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="20dp"
+           android:textStyle="bold"
+           android:textColor="@color/whiteColor"
+           android:textSize="20sp"
+           android:text="小狗子"/>
+        <TextView
+            android:id="@+id/img_member_lever"
+            android:layout_width="54dp"
+            android:layout_height="36dp"
+            android:text="V1"
+            android:textColor="@color/yellowColor"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="30dp"
+            />
+       <ImageView
+           android:id="@+id/img_sex"
+           android:layout_width="54dp"
+           android:layout_height="36dp"
+           android:layout_gravity="center"
+           android:src="@drawable/man"
+           />
+       <ImageView
+           android:id="@+id/img_real_name"
+           android:layout_width="54dp"
+           android:layout_height="36dp"
+           android:layout_gravity="center"
+           android:src="@drawable/realname"
+           />
+
+
+   </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点滴号：00000020637"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/whiteColor"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我爱你中国 亲爱的母亲"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/whiteColor"
+        android:textSize="20sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+           <LinearLayout
+               android:background="@drawable/my_level"
+               android:layout_width="60dp"
+               android:layout_height="50dp"
+              android:layout_marginLeft="20dp"
+               android:orientation="vertical">
+               <ImageView
+                   android:layout_width="25dp"
+                   android:layout_height="25dp"
+                   android:layout_gravity="center"
+
+                   android:src="@drawable/level"/>
+               <TextView
+                   android:id="@+id/btn_upgrade"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:text="直升v2"
+                   android:textColor="@color/whiteColor"
+                   />
+           </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/my_level"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="14dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/dianbi"/>
+        <TextView
+            android:id="@+id/btn_dianbi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="187点币"
+            android:layout_gravity="center"
+
+            android:textColor="@color/whiteColor"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="@drawable/my_level"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="14dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/team"/>
+        <TextView
+            android:id="@+id/btn_team"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="团队9"
+            android:layout_gravity="center"
+
+            android:textColor="@color/whiteColor"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/my_level"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="14dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/profit"/>
+        <TextView
+            android:id="@+id/btn_profit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="66.88元"
+            android:layout_gravity="center"
+
+            android:textColor="@color/whiteColor"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/my_level"
+        android:layout_width="72dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="14dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/partner"/>
+        <TextView
+            android:id="@+id/btn_partner"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:text="直升V12"
+            android:layout_gravity="center"
+            android:textColor="@color/whiteColor"
+            />
+    </LinearLayout>
+
+  </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+      <RelativeLayout
+          android:layout_width="wrap_content"
+          android:layout_marginLeft="20dp"
+          android:layout_height="wrap_content">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/whiteColor"
+          android:textSize="14sp"
+          android:text="0"/>
+        <TextView
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关注"
+            android:textColor="#80ffff"
+            android:textSize="14sp"/>
+
+
+      </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_fans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteColor"
+            android:textSize="14sp"
+            android:text="0"/>
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="粉丝"
+            android:textColor="#80ffff"
+            android:textSize="14sp"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_live_broadcast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteColor"
+            android:textSize="14sp"
+            android:text="0"/>
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="直播"
+            android:textColor="#80ffff"
+            android:textSize="14sp"/>
+
+
+    </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

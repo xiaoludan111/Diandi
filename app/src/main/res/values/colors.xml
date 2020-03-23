@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <!--    页面底色-->
+    <color name="bottomColor">#161922</color>
+    <!--    黑色字体-->
+    <color name="blackColor">#2e2e2e</color>
+    <!--    灰色图标文字-->
+    <color name="greyColor">#999999</color>
+    <!--    灰色底板-->
+    <color name="greyBottomColor">#2e2e2e</color>
+    <!--   透明底板-->
+    <color name="transparentFloorColor">#f5f5f5</color>
+    <!--    深灰线条-->
+    <color name="darkGreyColor">#22252d</color>
+    <!--    灰色线条-->
+    <color name="greyLineColor">#dfdfdf</color>
+    <!--    大标签底色-->
+    <color name="largeLableColor">#242730 </color>
+     <!--    小标签底色-->
+    <color name="smallLableColor">#242730</color>
+    <!--    白色文字-->
+    <color name="whiteColor">#ffffff</color>
+    <!--    黄色文字-->
+    <color name="yellowColor">#ffe61b</color>
+    <!--    绿色选框文字-->
+    <color name="greenCheckColor">#3dbd7d</color>
+    <!--    蓝色文字边框-->
+   <color name="blueCheckColor">#4d95f9</color>
+
+<!--    图标投影全部一样距离2不透明度28色值# 4b4b4b-->
+</resources>
