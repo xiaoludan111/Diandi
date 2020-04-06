@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.PartnerChannelActivity"></activity>
+        <activity android:name=".activity.MyTeamActivity"></activity>
+        <activity android:name=".activity.PartnerChannelActivity" />
         <activity android:name=".activity.SettingActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

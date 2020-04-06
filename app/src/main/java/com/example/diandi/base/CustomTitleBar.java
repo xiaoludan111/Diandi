@@ -29,7 +29,7 @@ public class CustomTitleBar extends RelativeLayout {
         ivBack = inflate.findViewById(R.id.iv_back);
         tvTitle = inflate.findViewById(R.id.tv_title);
         tvMore = inflate.findViewById(R.id.tv_more);
-        //ivMore = inflate.findViewById(R.id.iv_more);
+
 
         init(context,attributeSet);
     }

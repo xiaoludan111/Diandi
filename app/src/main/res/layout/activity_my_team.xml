@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bottomColor"
+    android:layout_height="match_parent"
+    tools:context=".activity.MyTeamActivity">
+
+    <com.example.diandi.base.CustomTitleBar
+        android:id="@+id/titlebar"
+        android:background="@color/whiteColor"
+        app:right_text="分享"
+        app:titlebar_type="11"
+        app:left_icon="@drawable/back"
+        android:layout_height="50dp"
+        app:title="我的团队"
+        android:layout_width="match_parent"/>
+  <view
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:textColor="@color/whiteColor"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="60dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_centerVertical="true"
+            android:text="团队：29"
+            android:textColor="@color/whiteColor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/whiteColor"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="54dp"
+                android:layout_centerVertical="true"
+                android:text="团队等级由高到底"/>
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
