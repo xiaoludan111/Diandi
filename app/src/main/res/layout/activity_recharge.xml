@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bottomColor"
+    tools:context=".activity.RechargeActivity">
+    <com.example.diandi.base.CustomTitleBar
+        android:id="@+id/titlebar"
+        android:background="@color/whiteColor"
+        app:right_text="更多"
+        app:titlebar_type="11"
+        app:left_icon="@drawable/back"
+        app:title="充值"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="24dp"
+        android:textColor="@color/whiteColor"
+        android:text="购买数量"/>
+
+     <LinearLayout
+         android:layout_marginTop="36dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="24dp"
+         android:layout_marginRight="24dp"
+         android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/btn_recharge_check"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/whiteColor"
+                android:text="1000点币"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/whiteColor"
+                android:layout_gravity="center_horizontal"
+                android:text="￥10元"/>
+
+        </LinearLayout>
+         <LinearLayout
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:layout_marginLeft="12dp"
+             android:background="@drawable/btn_recharge_check"
+             android:layout_weight="1">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:textColor="@color/whiteColor"
+                 android:text="5000点币"/>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:textColor="@color/whiteColor"
+                 android:text="￥50元"/>
+
+         </LinearLayout>
+         <LinearLayout
+             android:layout_marginLeft="12dp"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:background="@drawable/btn_recharge_check"
+             android:orientation="vertical"
+             android:layout_weight="1">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:textColor="@color/whiteColor"
+                 android:text="10000点币"/>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:textColor="@color/whiteColor"
+                 android:text="￥100元"/>
+
+         </LinearLayout>
+
+
+     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="24dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/btn_recharge_check"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/whiteColor"
+                android:text="100000点币"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/whiteColor"
+                android:layout_gravity="center_horizontal"
+                android:text="￥1000元"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/btn_recharge_check"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/whiteColor"
+                android:text="20000点币"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/whiteColor"
+                android:text="￥2000元"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="12dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_recharge_check"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/whiteColor"
+                android:text="500000点币"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/whiteColor"
+                android:text="￥5000元"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/whiteColor"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_confirm"
+        android:layout_height="wrap_content"
+        android:text="确定"/>
+
+</LinearLayout>

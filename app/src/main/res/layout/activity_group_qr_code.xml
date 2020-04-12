@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bottomColor"
+    tools:context=".activity.GroupQrCodeActivity">
+    <com.example.diandi.base.CustomTitleBar
+        android:id="@+id/titlebar"
+        android:background="@color/whiteColor"
+        app:right_text="更多"
+        app:titlebar_type="11"
+        app:left_icon="@drawable/back"
+        app:title="群二维码名片"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+   <TextView
+       android:id="@+id/tv_group_qrname"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="@color/whiteColor"
+       android:textSize="16sp"
+       android:layout_marginTop="60dp"
+       android:layout_gravity="center_horizontal"
+       android:text="欢乐一家亲群"/>
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_launcher"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="@color/greyColor"
+      android:layout_gravity="center_horizontal"
+      android:text="该二维码7天内有效,重新进入将更新"
+      android:layout_marginTop="40dp"/>
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="保存到手机"/>
+
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="取消"/>
+
+
+</LinearLayout>

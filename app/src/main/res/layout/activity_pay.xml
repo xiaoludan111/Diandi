@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/bottomColor"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+    tools:context=".activity.PayActivity">
+    <com.example.diandi.base.CustomTitleBar
+        android:id="@+id/titlebar"
+        android:background="@color/whiteColor"
+        app:right_text="更多"
+        app:titlebar_type="11"
+        app:left_icon="@drawable/back"
+        app:title="支付"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="24dp"
+        android:textColor="@color/whiteColor"
+        android:text="应付金额"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="34dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FF9313"
+        android:text="￥10元"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="24dp"
+
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteColor"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:text="微信支付"/>
+
+        <CheckBox
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="24dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/whiteColor"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="24dp"
+
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteColor"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:text="支付宝支付"/>
+
+        <CheckBox
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="24dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/whiteColor"
+            />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/whiteColor"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/btn_confirm"
+        android:text="确定"/>
+
+</LinearLayout>

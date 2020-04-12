@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bottomColor"
+    android:layout_height="match_parent"
+    tools:context=".activity.GroupManagerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/back" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="群管理"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="14sp"
+            android:textColor="@color/whiteColor"/>
+
+    </LinearLayout>
+  <androidx.recyclerview.widget.RecyclerView
+      android:layout_marginTop="20dp"
+      android:id="@+id/rv_manager_list"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/greyColor"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteColor"
+            android:layout_centerVertical="true"
+            android:text="群聊名称"/>
+
+        <TextView
+            android:id="@+id/tv_group_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteColor"
+           android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/img_goto"
+            android:layout_marginRight="8dp"
+            android:text="未命名"/>
+        <ImageView
+            android:id="@+id/img_goto"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_go"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteColor"
+            android:layout_centerVertical="true"
+            android:text="群公告"/>
+
+
+        <ImageView
+            android:id="@+id/img_goto2"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_go"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteColor"
+            android:layout_centerVertical="true"
+            android:text="消息免打扰"/>
+
+
+        <Switch
+            android:id="@+id/switch_group"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_go"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteColor"
+            android:layout_centerVertical="true"
+            android:text="我在本群的昵称"/>
+
+        <TextView
+            android:id="@+id/tv_group_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteColor"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/img_goto3"
+            android:layout_marginRight="8dp"
+            android:text="顺其自然"/>
+        <ImageView
+            android:id="@+id/img_goto3"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_go"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteColor"
+            android:layout_centerVertical="true"
+            android:text="群二维码"/>
+
+
+        <ImageView
+            android:id="@+id/img_goto4"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_go"/>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_group_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF6C00"
+        android:layout_marginTop="38dp"
+        android:text="删除并退出"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bottomColor"
+    android:orientation="vertical"
+    tools:context=".activity.MobileContacts">
+
+    <com.example.diandi.base.CustomTitleBar
+        android:id="@+id/titlebar"
+        android:background="@color/whiteColor"
+        app:right_text="更多"
+        app:titlebar_type="11"
+        app:left_icon="@drawable/back"
+        app:title="手机联系人"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textColor="@color/greyColor"
+        android:text="已有36位手机联系人加入点滴"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_contact_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+</LinearLayout>

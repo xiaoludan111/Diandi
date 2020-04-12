@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bottomColor"
+    tools:context=".activity.AddressBookActivity">
+
+    <com.example.diandi.base.CustomTitleBar
+        android:id="@+id/titlebar"
+        android:background="@color/whiteColor"
+        app:right_text="更多"
+        app:titlebar_type="11"
+        app:left_icon="@drawable/back"
+        app:title="通讯录"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+   <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/whiteColor"
+        android:layout_marginLeft="10dp"
+        android:textSize="14sp"
+        android:layout_gravity="center_vertical"
+        android:text="新的好友"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteColor"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"
+            android:layout_gravity="center_vertical"
+            android:text="我的关注"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteColor"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"
+            android:layout_gravity="center_vertical"
+            android:text="手机联系人"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteColor"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"
+            android:layout_gravity="center_vertical"
+            android:text="群聊"/>
+
+    </LinearLayout>
+   <view
+       android:layout_marginTop="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="1dp"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="@color/whiteColor"
+       android:layout_marginLeft="20dp"
+       android:layout_marginTop="24dp"
+       android:text="我的好友"/>
+
+
+
+
+
+
+</LinearLayout>

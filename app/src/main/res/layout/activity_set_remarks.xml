@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bottomColor"
+    android:orientation="vertical"
+    tools:context=".activity.SetRemarksActivity">
+    <com.example.diandi.base.CustomTitleBar
+        android:id="@+id/titlebar"
+        android:background="@color/whiteColor"
+        app:right_text="更多"
+        app:titlebar_type="11"
+        app:left_icon="@drawable/back"
+        app:title="设置备注"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+     <TextView
+         android:layout_marginTop="14dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="备注名"
+         android:textSize="16sp"
+         android:layout_marginLeft="10dp"
+         android:textColor="@color/whiteColor"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:hint="请输入备注名"
+        android:textColorHint="@color/greyColor"/>
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#22252D"/>
+    <TextView
+        android:layout_marginTop="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="描述"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/whiteColor"/>
+    <TextView
+        android:layout_marginTop="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加更多备注信息"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/greyColor"/>
+
+   <EditText
+       android:background="@color/greyColor"
+       android:layout_width="match_parent"
+       android:hint="请输入"
+       android:layout_height="80dp"/>
+
+
+</LinearLayout>
